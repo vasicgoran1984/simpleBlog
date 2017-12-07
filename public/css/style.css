@@ -1,0 +1,302 @@
+.navbar.navbar-default {
+    background: #888;
+    border-bottom: 1px solid #f7c400;
+}
+            
+.navbar.navbar-default ul li a {
+    color: #fff;
+    height: 51px;
+    font-weight: bold;
+}
+
+.main-container {
+    background: white;
+
+}
+
+.bottom-navigation {
+
+    background: #fff;
+    border-bottom: 1px solid #f7c400;
+}
+
+.bottom-navbar {
+    margin-left: 30px;
+    background: #fff;
+    margin-top: -21px;
+    height: 40px;
+
+}
+        
+.bottom-navbar .navbar .nav.navbar-nav li {
+    height: 39px;
+    margin-left: 1px;
+    background: #fff;
+}
+
+.bottom-navbar .navbar ul.nav.navbar-nav li a {
+    color: #444;
+    list-style-type: none;
+    line-height: 11px;
+    font-weight: bold;
+}
+
+.bottom-navbar .navbar ul.nav.navbar-nav li a:focus {
+
+    list-style-type: none;
+    line-height: 12px;
+    font-weight: bold;
+    background: #fff;
+}
+        
+.bottom-navbar .navbar .nav.navbar-nav li a:hover {
+    margin: 0px;
+    height: 39px;
+    background: whitesmoke;
+}
+       
+.navbar-default {
+    background-color: #229922;
+    color:#ffffff;
+    border-radius:0;
+}
+
+
+.navbar-default .navbar-nav > .active > a {
+    color: #222;
+    background-color:transparent;
+    background: whitesmoke;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+/* end bootstrap nav style */
+
+/*-----owner-page-table style-----*/
+
+.owner-page table {
+    margin-left: 10px;
+    /*width: 920px;*/
+    width: 99%;
+    
+}
+
+.owner-page table td {
+    background: #fff;
+    width: auto;
+}
+
+/*-----end owner-page-table style-----*/
+
+/*-----form-select-owner style-----*/
+
+#dialog-owner #form-add-edit-owner #form-select-owner {
+    width: 300px;
+    height: 220px;
+}
+
+#dialog-owner label {
+    margin-top: 6px;
+    width: 95px;
+    height: 20px;
+    
+    float: left;
+}
+
+#dialog-owner .form-add-edit-owner input[type="text"] {
+    margin-top: 5px;
+    width: 200px;
+    border: 1px solid #CCC;
+    
+}
+
+.form-owner-star div:before {
+    position:absolute;
+    content:'*';
+    color:red;
+    right: 265px;
+    
+}
+
+/*-----end form-add-edit-owner style-----*/
+
+/*-----bottom-header style-----*/
+
+.bottom-header {
+    margin-top: -10px;
+    height: 40px;
+    background: #999;
+}
+
+.bottom-header h4 {
+    padding-top: 10px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+/*-----end bottom-header style-----*/
+
+/*-----form-select-vehicle style-----*/
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle {
+    width: 810px;
+    height: 355px;
+    
+}
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-left {
+    width: 360px;
+    height: 345px;
+    
+    float: left;
+}
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-left select.chassis-id {
+    width: 150px;
+    margin-bottom: 9px;
+}
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-left select.manufacturer-id {
+    width: 150px;
+    margin-bottom: 9px;
+}
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-left select.model-id {
+    width: 150px;
+    margin-bottom: 9px;
+}
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-left select.type-model-id {
+    width: 360px;
+    margin-bottom: 9px;
+}
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-left select.engine-displacement-id {
+    width: 150px;
+    margin-bottom: 9px;
+}
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-left .form-vehicle-star-chassis div:before {
+    position: absolute;
+    content: '*';
+    color: red;
+    left: 65px;
+}
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-left .form-vehicle-star-manufacturer div:before {
+    position: absolute;
+    content: '*';
+    color: red;
+    left: 107px;
+}
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-left .form-vehicle-star-model div:before {
+    position: absolute;
+    content: '*';
+    color: red;
+    left: 68px;
+}
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-left .form-vehicle-star-type-model div:before {
+    position: absolute;
+    content: '*';
+    color: red;
+    left: 100px;
+}
+
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-left .form-vehicle-star-displacement div:before {
+    position: absolute;
+    content: '*';
+    color: red;
+    left: 100px;
+}
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-right {
+    width: 450px;
+    height: 345px;
+    
+    float: left;
+}
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-right label {
+    margin-top: 6px;
+    margin-left: 15px;
+    width: 150px;
+    height: 20px;
+    
+    float: left;
+}
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-right input[type="text"] {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 200px;
+    border: 1px solid #CCC;
+    
+}
+
+#dialog-vehicle #form-add-edit-vehicle #form-select-vehicle-right .form-vehicle-star div:before {
+    position: absolute;
+    content: '*';
+    color: red;
+    right: 330px;
+    
+}
+
+/*-----form-select-vehicle style-----*/
+
+/*-----owner-page-----*/
+
+.owner-page .add-vehicle-owner {
+    width: 60px;
+    height: 25px;
+}
+
+.owner-page .add-vehicle-owner:hover {
+    cursor: pointer;
+}
+
+.owner-page .fa-car.add-vehicle-owner {
+    color: #888;
+}
+
+/*-----end owner-page-----*/
+
+/*-----form select service book style-----*/
+
+#dialog-service-book #form-select-service-book .form-service-book-star-date div:before,
+#dialog-service-book #form-select-service-book .form-service-book-star-number-kilometers div:before {
+    position: absolute;
+    content: '*';
+    color: red;
+    left: 150px;
+}
+
+#dialog-service-book label {
+    margin-top: 6px;
+    width: 145px;
+    height: 20px;
+    
+    float: left;
+}
+
+#dialog-service-book #form-select-service-book input[type="text"] {
+    margin-top: 5px;
+    width: 200px;
+    border: 1px solid #CCC;
+    
+}
+
+/*-----form select vehicle style-----*/
